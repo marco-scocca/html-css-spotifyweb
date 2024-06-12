@@ -10,7 +10,11 @@ ul {
 }
 
 /* section */
+.row {
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
 .bottom-section {
     height: 60px;
@@ -65,6 +69,57 @@ header {
 }
 
 
+.img-song,
+.icons-folder {
+    width: 25%;
+}
+
+.list-song {
+    width: 50%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-top: 75px;
+    font-size: 20px;
+}
+
+.copertina1 {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.copertina2 {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.copertina3 {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.copertina4 {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.copertina5 {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+
+.copertina6 {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
 
 
 /* utility */
@@ -105,7 +160,7 @@ header {
 }
 
 .song-resize {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
@@ -123,9 +178,52 @@ header {
 .playbar-controls .playbar {
     width: 70%;
     background-color: white;
+    height: 4px;
+    margin-right: 5px;
+    margin-top: 4px;
 }
 
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.buttons-list li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.text-size {
+    font-size: 5px;
+}
+
+
+
+
+
+
 /* color */
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-black {
+    background-color: black;
+
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
 
 
 .text-white {
